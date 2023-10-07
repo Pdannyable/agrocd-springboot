@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<!--suppress ALL -->
+<html xmlns:th="http://www.thymeleaf.org" lang="">
 
 <head>
 <meta charset="UTF-8">
@@ -16,11 +17,11 @@
 <script type="text/javascript"
 	th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
 
-<title>Spring Boot APP with MongoDB </title>
+<title>Upwind Concepts Inc. Registration Form</title>
 </head>
 <body>
 	<div class="container">
-		<h1 class="text-center">SpringBootApp + MongoDB with Jenkins, Docker and K8S</h1>
+		<h1 class="text-center">Registration for Site Reliability Engineer Training</h1>
 		<div class="col-md-6">
 			<form name="saveUser" action="/save" method="post"
 				class="form-horizontal">
@@ -41,6 +42,14 @@
 						class="form-control" placeholder="Email" name="email">
 				</div>
 				<div class="form-group">
+
+					<div class="form-group">
+						<label for="Years of IT Experience">Years of IT Experience:</label> <input type="Years of experience"
+																 id="Years of Experience"
+																 class="form-control"
+																 placeholder="Years of IT Experience"
+																 name="Years of Experience">
+					</div>
 					<button type="submit" class="btn btn-default">Submit</button>
 				</div>
 			</form>
@@ -56,6 +65,7 @@
 						<th>First Name</th>
 						<th>Last Name</th>
 						<th>Email</th>
+						<th>Years of IT Experience</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -66,14 +76,14 @@
 
 		<div class="row-md-8">
 			<div class="col-md-3">
-				<img th:src="@{/img/logo1.png}" alt="logo1.png" height="200">
+				<img th:src="@{/img/UCI Logo1.1.png}" alt="UCI Logo1.1.png" height="200">
 			</div>
 			<div class="col-md-8">
-				<h4 class="text-center">Landmark Technology - Software Development & DevOps Automation.</h4>
+				<h4 class="text-center">Upwind Concepts Inc. - IT and Business Analysis Solutions.</h4>
 				<h3 class="text-center">Tel
-					+1 437-215-2483; mylandmarktech@gmail.com</h3>
+					+1 519-878-6493; upwindconcept@gmail.com</h3>
 				<h5 class="text-center">
-					Copyright 2021 by <a href="http://www.mylandmarktech.com/">Landmark Technology
+					Copyright 2023 by <a href="http://www.upwindconceptsinc.com/">Upwind Concepts Inc.
 						</a>
 				</h5>
 			</div>
